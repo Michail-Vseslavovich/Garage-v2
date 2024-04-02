@@ -5,8 +5,7 @@ namespace garage
     class Menu
     {
         Mechanic Tom;
-        Car YourCar = new Car();
-        SportCar YourSportCar = new SportCar();
+
         public void Start()
         {
             Console.WriteLine("Вас приветствует ваш механик. Перед началом работы, прошу вас сообщить мне количество машиномест в вашем гараже!");
